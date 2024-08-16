@@ -52,6 +52,17 @@
     object-fit: contain;
   }
 
+  .socialWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialicons{
+    object-fit: contain;
+    height: auto;
+  }
 
   @media screen and (max-width:500px) {
 
@@ -86,6 +97,15 @@
     .image{
         content: url("../images/Section1/bg.png");
         width: 280px;
+    }
+
+    .socialWrapper{
+        gap: 20px;
+    }
+
+    .socialicons{
+        width: 30px;
+        border-radius: 100px;
     }
 
   }
@@ -123,6 +143,15 @@
         content: url("../images/Section1/bg.png");
         width: 350px;
     }
+
+    .socialWrapper{
+        gap: 20px;
+    }
+
+    .socialicons{
+        width: 40px;
+        border-radius: 100px;
+    }
   }
 
   @media screen and (min-width:1024px) and (max-width:1920px) {
@@ -159,6 +188,15 @@
         content: url("../images/Section1/bg.png");
         width: 500px;
     }
+
+    .socialWrapper{
+        gap: 30px;
+    }
+
+    .socialicons{
+        width: 50px;
+        border-radius: 100px;
+    }
   }
 
   @media screen and (min-width:1921px){
@@ -194,6 +232,15 @@
     .image{
         content: url("../images/Section1/bg.png");
         width: 600px;
+    }
+    
+    .socialWrapper{
+        gap: 60px;
+    }
+
+    .socialicons{
+        width: 75px;
+        border-radius: 100px;
     }
 
   }
