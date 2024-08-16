@@ -5,7 +5,7 @@ import bg from '../images/Section3/bg.png'
 
 const Section3=()=>{
 
-    const ca=useRef("84848484848").current
+    const ca=useRef("CN6YBfSnmmSfr2yX6gTg6hyQDo5yx1D2QFMGRxMGpump").current
     const hexText=useRef("");
 
     return(

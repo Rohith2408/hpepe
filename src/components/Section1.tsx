@@ -7,7 +7,6 @@ import dex_icon from '../images/Section1/dex.png'
 
 const Section1=()=>{
 
-    const ca=useRef("84848484848").current
     const socialIcons = useRef([
         { src: telegram_icon, link: "https://t.me/hpepecto" },
         { src: twitter_icon, link: "https://x.com/hpepecto" },
@@ -22,7 +21,7 @@ const Section1=()=>{
                     <p className={styles.title}>$hpepe</p>
                     <p className={styles.text}>
                         The most memeable memecoin in existence.
-                        The dogs have had their day, it’s time for Pepe to take reign.
+                        The dogs have had their day, it’s time for Hpepe to take reign.
                     </p>
                     <div className={styles.socialWrapper}>
                     {
