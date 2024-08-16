@@ -123,6 +123,7 @@
   .email{
     margin: 0;
     font-family: var(--font-average);
+    color: white;
   }
 
   @media screen and (max-width:500px) {

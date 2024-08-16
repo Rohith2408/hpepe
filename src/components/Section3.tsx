@@ -24,8 +24,10 @@ const Section3=()=>{
                         <div className={styles.boxBackground}></div>
                     </div>
                     <div className={styles.emailWrapper}>
-                        <p className={styles.emailTitle}>Email Id:</p>
-                        <p className={styles.email}>{email}</p>
+                        {/* <p className={styles.emailTitle}>Email Id:</p> */}
+                        <a style={{textDecoration:"none"}} href={"https://mail.google.com/mail/?view=cm&fs=1&to="+email} target="_blank"><p className={styles.email}>Mail us</p></a>
+                        {/* <a ma>{email}</a> */}
+                        {/* <p className={styles.email}>{email}</p> */}
                     </div>
                     {/* <div className={styles.box}>
                         <p className={styles.caTitle}>Text to Hex Converter</p>
