@@ -15,8 +15,8 @@ const Section2=()=>{
                 <div className={styles.textWrapper}>
                     <p className={styles.title}>about</p>
                     <p className={styles.text}>
-                        Hpepe is tired of watching everyone play hot potato with the endless derivative ShibaCumGMElonKishuTurboAssFlokiMoon Inu coins. The Inu’s have had their day. It’s time for the most recognizable meme in the world to take his reign as king of the internet.
-                        Hpepe is here to make memecoins great again. Launched stealth with no presale, zero taxes, LP burnt and contract renounced, $HPEPE is a coin for the people, forever. Fueled by pure memetic power, let $HPEPE show you the way.
+                        Hpepe is tired of watching everyone play hot potato with the endless derivative ShibaCumGMElonKishuTurboAss Inu coins. The Inu’s have had their day. It’s time for the most recognizable meme in the world to take his reign as king of the internet.
+                        Hpepe is here to make memecoins great again. Launched stealth with no presale, zero taxes, LP burnt and contract renounced, $HPEPE is a coin for the people, forever. 
                     </p>
                 </div>
                 <div className={styles.imageWrapper2}>
