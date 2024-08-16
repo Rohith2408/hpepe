@@ -6,6 +6,9 @@
     align-items: center;
     justify-content: center;
     background-color:#4B9740;
+    background-image: url("../images/Section1/matrix.png");
+    background-size: contain;
+    background-repeat:repeat;
   }
   
   .subwrapper{
@@ -161,7 +164,8 @@
     }
 
     .bg1,.bg2{
-        width: 150px;
+        width: 90px;
+        content: url("../images/Section3/bg_mobile.png");
     }
 
     .emailWrapper{
@@ -215,6 +219,7 @@
 
     .bg1,.bg2{
         width: 200px;
+        content: url("../images/Section3/bg.png");
     }
 
     .emailWrapper{
@@ -268,6 +273,7 @@
 
     .bg1,.bg2{
         width: 300px;
+        content: url("../images/Section3/bg.png");
     }
 
     .emailWrapper{
@@ -320,6 +326,7 @@
 
     .bg1,.bg2{
         width: 400px;
+        content: url("../images/Section3/bg.png");
     }
 
     .emailWrapper{

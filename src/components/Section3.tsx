@@ -12,8 +12,8 @@ const Section3=()=>{
     return(
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
             <div className={styles.subwrapper}>
-                <img src={bg} className={styles.bg1}></img>
-                <img src={bg} className={styles.bg2} style={{transform:"scaleX(-1)"}}></img>
+                <img className={styles.bg1}></img>
+                <img className={styles.bg2} style={{transform:"scaleX(-1)"}}></img>
                 <div className={styles.boxWrapper}>
                     <div className={styles.box}>
                         <p className={styles.caTitle}>Contract Address</p>
