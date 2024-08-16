@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
         <Section1/>
-        <Section2/>
+        {/* <Section2/> */}
         <Section4/>
         <Section3/>
     </div>
