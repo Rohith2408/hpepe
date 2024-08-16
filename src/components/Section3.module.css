@@ -59,7 +59,7 @@
 
   .ca{
     margin: 0;
-    font-family: var(--font-bubbler);
+    font-family: var(--font-average);
     color: white;
     background-color:transparent;
     border:none;
@@ -122,7 +122,7 @@
 
   .email{
     margin: 0;
-    font-family: var(--font-bubbler);
+    font-family: var(--font-average);
   }
 
   @media screen and (max-width:500px) {

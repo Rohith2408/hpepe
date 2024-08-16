@@ -70,7 +70,7 @@
     overflow: auto;
     resize: none;
     max-width: 90%;
-    font-family: var(--font-bubbler);
+    font-family: var(--font-average);
     color: white;
     transform: rotate(1deg);
   }
