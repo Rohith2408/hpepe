@@ -35,7 +35,7 @@ const Section4=()=>{
                             <button className={styles.copyWrapper} onClick={()=>{alert("Your Hex Text has been copied");navigator.clipboard.writeText(hex)}}><img className={styles.copyIcon} src={copy_icon}></img></button>
                         </div>
                         <div className={styles.boxForeground}>
-                            <textarea onChange={(e)=>setTexts("hex",e.target.value)} value={hex} className={styles.textarea} placeholder="Enter the text to convert to Hex"></textarea>
+                            <textarea onChange={(e)=>setTexts("hex",e.target.value)} value={hex} className={styles.textarea} placeholder="Enter the Hex to convert to Text"></textarea>
                         </div>
                         <div className={styles.boxBackground}></div>
                     </div>
@@ -45,7 +45,7 @@ const Section4=()=>{
                             <button className={styles.copyWrapper} onClick={()=>{alert("Your Text has been copied");navigator.clipboard.writeText(text)}}><img className={styles.copyIcon} src={copy_icon}></img></button>
                         </div>
                         <div className={styles.boxForeground}>
-                            <textarea onChange={(e)=>setTexts("text",e.target.value)} value={text} className={styles.textarea} placeholder="Enter the text to convert to Hex"></textarea>
+                            <textarea onChange={(e)=>setTexts("text",e.target.value)} value={text} className={styles.textarea} placeholder="Enter the Text to convert to Hex"></textarea>
                         </div>
                         <div className={styles.boxBackground}></div>
                     </div>
