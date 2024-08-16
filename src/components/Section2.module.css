@@ -6,6 +6,9 @@
     align-items: center;
     justify-content: center;
     background-color:#4B9740;
+    background-image: url("../images/Section1/matrix.png");
+    background-size: contain;
+    background-repeat:repeat;
 }
   
   .subwrapper{
