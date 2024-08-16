@@ -180,8 +180,8 @@
   @media screen and (min-width:501px) and (max-width:1023px) {
 
     .mainwrapper{
-        max-height: 750px;
-        min-height: 700px;
+        max-height: 650px;
+        min-height: 600px;
     }
 
     .subwrapper{

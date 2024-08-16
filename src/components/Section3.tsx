@@ -6,6 +6,7 @@ import bg from '../images/Section3/bg.png'
 const Section3=()=>{
 
     const ca=useRef("CN6YBfSnmmSfr2yX6gTg6hyQDo5yx1D2QFMGRxMGpump").current
+    const email=useRef("hexpepecto@gmail.com").current
     const hexText=useRef("");
 
     return(
@@ -21,6 +22,10 @@ const Section3=()=>{
                             <button className={styles.copyWrapper} onClick={()=>{alert("Contract Address Copied");navigator.clipboard.writeText(ca)}}><img className={styles.copyIcon} src={copy_icon}></img></button>
                         </div>
                         <div className={styles.boxBackground}></div>
+                    </div>
+                    <div className={styles.emailWrapper}>
+                        <p className={styles.emailTitle}>Email Id:</p>
+                        <p className={styles.email}>{email}</p>
                     </div>
                     {/* <div className={styles.box}>
                         <p className={styles.caTitle}>Text to Hex Converter</p>

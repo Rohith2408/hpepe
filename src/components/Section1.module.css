@@ -6,6 +6,9 @@
     align-items: center;
     justify-content: center;
     background-color:#4B9740;
+    background-image: url("../images/Section1/matrix.png");
+    background-size: contain;
+    background-repeat:repeat;
   }
   
   .subwrapper{
@@ -22,14 +25,23 @@
     justify-content: center;
     flex-direction: column;
     box-sizing: border-box;
+    align-items:center;
+  }
+
+  .textSubWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items:flex-start;
   }
 
   .imageWrapper{
     display: flex;
     justify-content: center;
-    align-items:flex-start;
     flex-direction: column;
     box-sizing: border-box;
+    align-items:center;
   }
 
   .title{
@@ -78,8 +90,14 @@
     }
 
     .textWrapper{
-        gap: 30px;
+        width:100%;
         align-items:center;
+    }
+
+    .textSubWrapper{
+        width:50%;
+        gap: 15px;
+        align-items: center;
     }
 
     .title{
@@ -90,7 +108,7 @@
     .text{
         font-size: 20px;
         line-height: 26px;
-        max-width: 75%;
+        /* max-width: 75%; */
         text-align: center;
     }
 
@@ -123,8 +141,14 @@
     }
 
     .textWrapper{
-        gap: 30px;
+        width:100%;
         align-items:center;
+    }
+
+    .textSubWrapper{
+        width:50%;
+        gap: 20px;
+        align-items: center;
     }
 
     .title{
@@ -135,7 +159,7 @@
     .text{
         font-size: 26px;
         line-height: 40px;
-        max-width: 75%;
+        /* max-width: 75%; */
         text-align: center;
     }
 
@@ -168,19 +192,27 @@
     }
 
     .textWrapper{
+        width: 50%;
+    }
+
+    .textSubWrapper{
+        width:50%;
         gap: 10px;
-        align-items:flex-start;
+    }
+
+    .imageWrapper{
+        width: 50%;
     }
 
     .title{
-        font-size:66px;
+        font-size:74px;
         text-align: start;
     }
 
     .text{
         font-size: 30px;
         line-height:48px;
-        max-width: 75%;
+        /* max-width: 75%; */
         text-align: start;
     }
 
@@ -213,19 +245,27 @@
     }
 
     .textWrapper{
+        width: 50%;
+    }
+
+    .textSubWrapper{
+        width:50%;
         gap: 36px;
-        align-items:flex-start;
+    }
+
+    .imageWrapper{
+        width: 50%;
     }
 
     .title{
-        font-size:76px;
+        font-size:86px;
         text-align: start;
     }
 
     .text{
         font-size: 40px;
         line-height:58px;
-        max-width: 50%;
+        /* max-width: 50%; */
         text-align: start;
     }
 
