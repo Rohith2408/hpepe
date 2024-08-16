@@ -46,6 +46,8 @@
     align-items: center;
     gap: 10px;
     border: 3px solid black;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .boxBackground{
@@ -55,12 +57,28 @@
     background-color: #3F8236;
   }
 
-  .ca{
-    margin: 0;
+  .textarea{
+    width:100%;
+    height: 90%;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    word-wrap: break-word;   
+    overflow: auto;
+    resize: none;
+    max-width: 90%;
     font-family:var(--font-average);
     color: white;
+  }
+
+  .hex{
+    margin: 0;
+    color: white;
     background-color:transparent;
-    border:none
+    border:none;
+    word-wrap: break-word;   
+    overflow-wrap: break-word;
+    text-align: start;
   }
 
   .caTitle{
@@ -69,8 +87,14 @@
     color: white;
     text-align: start;
     z-index: 1;
+  }
+
+  .titleWrapper{
+    display:flex;
+    flex-direction: row;
     position: absolute;
     transform: translateY(-150%);
+    gap: 20px;
   }
 
   .copyWrapper{
@@ -97,8 +121,8 @@
   @media screen and (max-width:500px) {
 
     .mainwrapper{
-        max-height: 300px;
-        min-height: 250px;
+        max-height: 650px;
+        min-height: 600px;
         min-width: 320px;
     }
 
@@ -109,7 +133,7 @@
 
     .boxWrapper{
         width: 300px;
-        height: 64px;
+        height: 400px;
         gap: 100px;
         flex-direction: column;
     }
@@ -120,11 +144,15 @@
         transform: rotate(0.5deg);
     }
 
-    .ca{
-        font-size: 22px;
+    .hex{
+        font-size: 16px;
     }
     .caTitle{
-        font-size: 26px;
+        font-size: 22px;
+    }
+
+    .textarea{
+        font-size: 18px;
     }
 
     .copyIcon{
@@ -141,8 +169,8 @@
   @media screen and (min-width:501px) and (max-width:1023px) {
 
     .mainwrapper{
-        max-height: 450px;
-        min-height: 400px;
+        max-height: 750px;
+        min-height: 700px;
     }
 
     .subwrapper{
@@ -152,8 +180,8 @@
 
     .boxWrapper{
         width: 400px;
-        height: 100px;
-        gap: 100px;
+        height: 550px;
+        gap: 150px;
         flex-direction: column;
     }
 
@@ -163,11 +191,15 @@
         transform: rotate(0.5deg);
     }
 
-    .ca{
-        font-size: 26px;
+    .hex{
+        font-size: 18px;
     }
     .caTitle{
-        font-size: 30px;
+        font-size: 26px;
+    }
+
+    .textarea{
+        font-size: 20px;
     }
 
     .copyIcon{
@@ -184,8 +216,8 @@
   @media screen and (min-width:1024px) and (max-width:1920px) {
 
     .mainwrapper{
-        max-height: 550px;
-        min-height: 500px;
+        max-height: 750px;
+        min-height: 700px;
     }
 
     .subwrapper{
@@ -195,9 +227,9 @@
     }
 
     .boxWrapper{
-        width: 800px;
-        height: 150px;
-        gap: 100px;
+        width: 900px;
+        height: 500px;
+        gap: 75px;
     }
 
     .boxBackground{
@@ -206,11 +238,21 @@
         transform: rotate(0.5deg);
     }
 
-    .ca{
-        font-size: 30px;
+    .textarea{
+        padding: 20px;
+        /* width: 500px;
+        height: 150px; */
+    }
+
+    .hex{
+        font-size: 20px;
     }
     .caTitle{
-        font-size: 34px;
+        font-size: 30px;
+    }
+
+    .textarea{
+        font-size: 22px;
     }
 
     .copyIcon{
@@ -226,8 +268,8 @@
   @media screen and (min-width:1921px){
 
     .mainwrapper{
-        max-height: 750px;
-        min-height: 700px;
+        max-height: 850px;
+        min-height: 800px;
     }
 
     .subwrapper{
@@ -238,7 +280,7 @@
 
     .boxWrapper{
         width: 1800px;
-        height: 175px;
+        height: 700px;
         gap: 200px;
     }
 
@@ -248,9 +290,20 @@
         transform: rotate(1deg);
     }
 
-    .ca{
+    /* .textarea{
+        padding: 20px;
+        width: 700px;
+        height: 150px;
+    } */
+
+    .hex{
+        font-size: 34px;
+    }
+
+    .textarea{
         font-size: 36px;
     }
+
     .caTitle{
         font-size: 40px;
         margin: 10px;

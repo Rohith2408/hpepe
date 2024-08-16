@@ -22,14 +22,14 @@ const Section3=()=>{
                         </div>
                         <div className={styles.boxBackground}></div>
                     </div>
-                    <div className={styles.box}>
+                    {/* <div className={styles.box}>
                         <p className={styles.caTitle}>Text to Hex Converter</p>
                         <div className={styles.boxForeground}>
                             <input style={{overflow:"hidden"}} onChange={(e)=>hexText.current=e.target.value} className={styles.ca} placeholder="Enter the text here"></input>
                             <button className={styles.copyWrapper} onClick={()=>{alert("Your Hex text has been copied");navigator.clipboard.writeText(textToHex(hexText.current))}}><img className={styles.copyIcon} src={copy_icon}></img></button>
                         </div>
                         <div className={styles.boxBackground}></div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
