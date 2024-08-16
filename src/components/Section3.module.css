@@ -60,7 +60,9 @@
     font-family:var(--font-average);
     color: white;
     background-color:transparent;
-    border:none
+    border:none;
+    overflow-wrap: anywhere;
+    text-align: start;
   }
 
   .caTitle{
@@ -121,7 +123,7 @@
     }
 
     .ca{
-        font-size: 22px;
+        font-size: 18px;
     }
     .caTitle{
         font-size: 26px;
@@ -164,7 +166,7 @@
     }
 
     .ca{
-        font-size: 26px;
+        font-size: 24px;
     }
     .caTitle{
         font-size: 30px;
@@ -207,7 +209,7 @@
     }
 
     .ca{
-        font-size: 30px;
+        font-size: 28px;
     }
     .caTitle{
         font-size: 34px;
