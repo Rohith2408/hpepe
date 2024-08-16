@@ -15,13 +15,14 @@ const Section4=()=>{
                 {/* <img src={bg} className={styles.bg1}></img>
                 <img src={bg} className={styles.bg2} style={{transform:"scaleX(-1)"}}></img> */}
                 <div className={styles.boxWrapper}>
+                    {/* <p className={styles.title}>Text to Hex Converter</p> */}
                     <div className={styles.box}>
                         <div className={styles.titleWrapper}> 
                             <p className={styles.caTitle}>Text</p>
                             <button className={styles.copyWrapper} onClick={()=>{alert("Your Text has been copied");navigator.clipboard.writeText(text)}}><img className={styles.copyIcon} src={copy_icon}></img></button>
                         </div>
                         <div className={styles.boxForeground}>
-                            <textarea onChange={(e)=>setText(e.target.value)} value={text} className={styles.textarea} placeholder="Enter the text here"></textarea>
+                            <textarea onChange={(e)=>setText(e.target.value)} value={text} className={styles.textarea} placeholder="Enter the text to convert to Hex"></textarea>
                         </div>
                         <div className={styles.boxBackground}></div>
                     </div>

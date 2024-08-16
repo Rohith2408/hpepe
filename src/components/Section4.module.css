@@ -69,6 +69,7 @@
     max-width: 90%;
     font-family:var(--font-average);
     color: white;
+    transform: rotate(1deg);
   }
 
   .hex{
@@ -79,6 +80,7 @@
     word-wrap: break-word;   
     overflow-wrap: break-word;
     text-align: start;
+    transform: rotate(-1deg);
   }
 
   .caTitle{
@@ -87,6 +89,15 @@
     color: white;
     text-align: start;
     z-index: 1;
+  }
+
+  .title{
+    /* position: absolute;
+    top: 0; */
+    margin: 0;
+    font-family:var(--font-barriecito);
+    color: white;
+    text-align: center;
   }
 
   .titleWrapper{
@@ -316,6 +327,10 @@
 
     .bg1,.bg2{
         width: 400px;
+    }
+
+    .title{
+        font-size: 30px;
     }
 
   }
