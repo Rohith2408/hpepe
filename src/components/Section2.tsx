@@ -4,7 +4,7 @@ import bg from '../images/Section2/bg.png'
 
 const Section2=()=>{
 
-    const ca=useRef("84848484848").current
+    const ca=useRef("CN6YBfSnmmSfr2yX6gTg6hyQDo5yx1D2QFMGRxMGpump").current
 
     return(
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">

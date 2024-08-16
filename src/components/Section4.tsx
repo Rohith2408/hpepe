@@ -7,7 +7,20 @@ const Section4=()=>{
 
     const ca=useRef("84848484848").current
     const [text,setText]=useState("")
-    const hextext=textToHex(text)
+    const [hex,setHex]=useState("")  
+
+    const setTexts=(type:"hex"|"text",value:string)=>{
+        if(type=="hex")
+        {
+            setHex(value)
+            setText(hexToText(value))
+        }
+        if(type=="text")
+        {
+            setHex(textToHex(value))
+            setText(value)
+        }
+    }
 
     return(
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
@@ -18,21 +31,21 @@ const Section4=()=>{
                     {/* <p className={styles.title}>Text to Hex Converter</p> */}
                     <div className={styles.box}>
                         <div className={styles.titleWrapper}> 
-                            <p className={styles.caTitle}>Text</p>
-                            <button className={styles.copyWrapper} onClick={()=>{alert("Your Text has been copied");navigator.clipboard.writeText(text)}}><img className={styles.copyIcon} src={copy_icon}></img></button>
+                            <p className={styles.caTitle}>Hex</p>
+                            <button className={styles.copyWrapper} onClick={()=>{alert("Your Hex Text has been copied");navigator.clipboard.writeText(hex)}}><img className={styles.copyIcon} src={copy_icon}></img></button>
                         </div>
                         <div className={styles.boxForeground}>
-                            <textarea onChange={(e)=>setText(e.target.value)} value={text} className={styles.textarea} placeholder="Enter the text to convert to Hex"></textarea>
+                            <textarea onChange={(e)=>setTexts("hex",e.target.value)} value={hex} className={styles.textarea} placeholder="Enter the text to convert to Hex"></textarea>
                         </div>
                         <div className={styles.boxBackground}></div>
                     </div>
                     <div className={styles.box}>
                         <div className={styles.titleWrapper}> 
-                            <p className={styles.caTitle}>Hex</p>
-                            <button className={styles.copyWrapper} onClick={()=>{alert("Your Hex Text has been copied");navigator.clipboard.writeText(hextext)}}><img className={styles.copyIcon} src={copy_icon}></img></button>
+                            <p className={styles.caTitle}>Text</p>
+                            <button className={styles.copyWrapper} onClick={()=>{alert("Your Text has been copied");navigator.clipboard.writeText(text)}}><img className={styles.copyIcon} src={copy_icon}></img></button>
                         </div>
                         <div className={styles.boxForeground}>
-                            <div style={{width:"90%",height:"90%",alignSelf:"center"}}><p className={styles.hex}>{hextext}</p></div>
+                            <textarea onChange={(e)=>setTexts("text",e.target.value)} value={text} className={styles.textarea} placeholder="Enter the text to convert to Hex"></textarea>
                         </div>
                         <div className={styles.boxBackground}></div>
                     </div>
@@ -48,6 +61,14 @@ function textToHex(text:string) {
         hex += text.charCodeAt(i).toString(16);
     }
     return hex;
+}
+
+function hexToText(hex:string) {
+    let str = '';
+    for (let i = 0; i < hex.length; i += 2) {
+        str += String.fromCharCode(parseInt(hex.substr(i, 2), 16));
+    }
+    return str;
 }
 
 export default Section4
