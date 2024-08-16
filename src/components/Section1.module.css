@@ -67,8 +67,8 @@
   @media screen and (max-width:500px) {
 
     .mainwrapper{
-        max-height: 600px;
-        min-height: 550px;
+        max-height: 650px;
+        min-height: 600px;
         min-width: 320px;
     }
 
@@ -113,8 +113,8 @@
   @media screen and (min-width:501px) and (max-width:1023px) {
 
     .mainwrapper{
-        max-height: 850px;
-        min-height: 800px;
+        max-height: 800px;
+        min-height: 750px;
     }
 
     .subwrapper{
@@ -157,8 +157,8 @@
   @media screen and (min-width:1024px) and (max-width:1920px) {
 
     .mainwrapper{
-        max-height: 950px;
-        min-height: 900px;
+        max-height: 650px;
+        min-height: 600px;
     }
 
     .subwrapper{
@@ -202,8 +202,8 @@
   @media screen and (min-width:1921px){
 
     .mainwrapper{
-        max-height: 1050px;
-        min-height: 1000px;
+        max-height: 850px;
+        min-height: 800px;
     }
 
     .subwrapper{
