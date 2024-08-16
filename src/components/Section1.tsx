@@ -10,7 +10,7 @@ const Section1=()=>{
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
             <div className={styles.subwrapper}>
                 <div className={styles.textWrapper}>
-                    <p className={styles.title}>$HPEPE</p>
+                    <p className={styles.title}>$hpepe</p>
                     <p className={styles.text}>
                         The most memeable memecoin in existence.
                         The dogs have had their day, it’s time for Pepe to take reign.
