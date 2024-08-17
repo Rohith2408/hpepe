@@ -5,10 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:#4B9740;
-    background-image: url("../images/Section1/matrix.png");
-    background-size: contain;
-    background-repeat:repeat;
+    background-color:#46A439;
   }
   
   .subwrapper{
@@ -18,6 +15,9 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    
+    background-size: cover;
+    background-repeat:no-repeat;
   }
 
   .textWrapper{
@@ -46,17 +46,18 @@
 
   .title{
     margin: 0;
-    color: white;
-    font-family: var(--font-barriecito);
+    color: #C9FFC1;
+    -webkit-text-stroke:0.1px black;
+    font-family: var(--font-pure-joy);
     font-weight: 700;
   }
 
   .text{
     margin: 0;
-    color: white;
-    font-family: var(--font-average);
+    color: black;
+    font-family: var(--font-bahiana);
     font-weight: 900;
-    max-width: 85%;
+    max-width: 95%;
   }
 
   .image{
@@ -87,6 +88,7 @@
     .subwrapper{
         flex-direction: column;
         gap: 30px;
+        background-image: url("../images/Section1/bg3_mobile.png");
     }
 
     .textWrapper{
@@ -101,12 +103,12 @@
     }
 
     .title{
-        font-size: 50px;
+        font-size: 60px;
         text-align: center;
     }
 
     .text{
-        font-size: 20px;
+        font-size: 24px;
         line-height: 26px;
         /* max-width: 75%; */
         text-align: center;
@@ -133,11 +135,13 @@
     .mainwrapper{
         max-height: 800px;
         min-height: 750px;
+        
     }
 
     .subwrapper{
         flex-direction: column;
         gap: 30px;
+        background-image: url("../images/Section1/bg3_mobile.png");
     }
 
     .textWrapper{
@@ -152,12 +156,12 @@
     }
 
     .title{
-        font-size: 64px;
+        font-size: 84px;
         text-align: center;
     }
 
     .text{
-        font-size: 26px;
+        font-size: 32px;
         line-height: 40px;
         /* max-width: 75%; */
         text-align: center;
@@ -189,6 +193,7 @@
         max-width: 1440px;
         padding: 50px;
         flex-direction: row;
+        background-image: url("../images/Section1/bg3.png");
     }
 
     .textWrapper{
@@ -196,8 +201,8 @@
     }
 
     .textSubWrapper{
-        width:50%;
-        gap: 10px;
+        width:60%;
+        gap: 15px;
     }
 
     .imageWrapper{
@@ -205,12 +210,12 @@
     }
 
     .title{
-        font-size:74px;
+        font-size:114px;
         text-align: start;
     }
 
     .text{
-        font-size: 30px;
+        font-size: 48px;
         line-height:48px;
         /* max-width: 75%; */
         text-align: start;
@@ -242,6 +247,7 @@
         max-width: 2200px;
         padding: 100px;
         flex-direction: row;
+        background-image: url("../images/Section1/bg3.png");
     }
 
     .textWrapper{
@@ -249,7 +255,7 @@
     }
 
     .textSubWrapper{
-        width:50%;
+        width:60%;
         gap: 36px;
     }
 
@@ -258,12 +264,12 @@
     }
 
     .title{
-        font-size:86px;
+        font-size:136px;
         text-align: start;
     }
 
     .text{
-        font-size: 40px;
+        font-size: 54px;
         line-height:58px;
         /* max-width: 50%; */
         text-align: start;
