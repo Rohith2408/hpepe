@@ -5,7 +5,8 @@ import bg from '../images/Section3/bg.png'
 import t1 from '../images/Section1/trippy2/1.png'
 import t2 from '../images/Section1/trippy2/2.png'
 import t3 from '../images/Section1/trippy2/3.png'
-import trippy from '../images/Section1/2.gif'
+import trippy from '../images/Section1/3.gif'
+
 
 const Section4=()=>{
 

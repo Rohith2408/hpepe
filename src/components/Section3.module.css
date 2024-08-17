@@ -18,6 +18,16 @@
     position: relative;
   }
 
+  .banner{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    left: 0;
+    object-fit:cover;
+    z-index: 1;
+    top:-5%;
+  }
+
   .bg{
     position: absolute;
     width: 100vw;
