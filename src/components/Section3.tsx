@@ -5,6 +5,7 @@ import bg from '../images/Section3/bg.png'
 import t1 from '../images/Section1/tripp3/1.png'
 import t2 from '../images/Section1/tripp3/2.png'
 import t3 from '../images/Section1/tripp3/3.png'
+import trippy from '../images/Section1/3.gif'
 
 const Section3=()=>{
 
@@ -27,7 +28,7 @@ const Section3=()=>{
 
     return(
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
-            <img className={styles.bg} src={bg[currentbg]}/>
+            <img className={styles.bg} src={trippy}/>
             <div className={styles.subwrapper}>
                 <img className={styles.bg1}></img>
                 <img className={styles.bg2} style={{transform:"scaleX(-1)"}}></img>
