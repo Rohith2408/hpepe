@@ -13,6 +13,7 @@ import t5 from '../images/Section1/trippy1/5.png'
 import t6 from '../images/Section1/trippy1/6.png'
 import t7 from '../images/Section1/trippy1/7.png'
 import trippy from '../images/Section1/1.gif'
+import banner from '../images/Section1/banner.gif'
 
 const Section1=()=>{
 
@@ -40,6 +41,7 @@ const Section1=()=>{
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
             <img className={styles.bg} src={trippy}/>
             <div className={styles.subwrapper}>
+                <img className={styles.banner} src={banner}/>
                 <div className={styles.textWrapper}>
                     <div className={styles.textSubWrapper}>
                         <p className={styles.title}>$hpepe</p>

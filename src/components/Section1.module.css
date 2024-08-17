@@ -17,6 +17,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    position: relative;
     /* background-image: url('../images/Section1/trippy1.png');
     background-size: cover;
     background-repeat:no-repeat; */
@@ -30,6 +31,15 @@
     left: 0;
     object-fit:cover;
     z-index: -1;
+  }
+
+  .banner{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    left: 0;
+    object-fit:cover;
+    z-index: 1;
   }
 
   .textWrapper{
@@ -142,6 +152,10 @@
         border-radius: 100px;
     }
 
+    .banner{
+        bottom: -2%;
+    }
+
   }
 
   @media screen and (min-width:501px) and (max-width:1023px) {
@@ -193,6 +207,10 @@
     .socialicons{
         width: 40px;
         border-radius: 100px;
+    }
+
+    .banner{
+        bottom: -4%;
     }
   }
 
@@ -249,6 +267,10 @@
         width: 50px;
         border-radius: 100px;
     }
+
+    .banner{
+        bottom: -7%;
+    }
   }
 
   @media screen and (min-width:1921px){
@@ -303,6 +325,10 @@
     .socialicons{
         width: 75px;
         border-radius: 100px;
+    }
+
+    .banner{
+        bottom: -10%;
     }
 
   }
