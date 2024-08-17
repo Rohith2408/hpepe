@@ -9,6 +9,9 @@ import t1 from '../images/Section1/trippy1/1.png'
 import t2 from '../images/Section1/trippy1/2.png'
 import t3 from '../images/Section1/trippy1/3.png'
 import t4 from '../images/Section1/trippy1/4.png'
+import t5 from '../images/Section1/trippy1/5.png'
+import t6 from '../images/Section1/trippy1/6.png'
+import t7 from '../images/Section1/trippy1/7.png'
 
 
 const Section1=()=>{
@@ -19,7 +22,7 @@ const Section1=()=>{
         { src:dex_icon, link: "https://dexscreener.com/solana/kb6eidtdewxwpnltbfkc3t9c7a6xlfvvqhwbatseeb5" },
         { src: dextools_icon, link: "https://www.dextools.io/app/en/solana/pair-explorer/KB6EiDtdewXwpNLTBfKC3t9C7A6XLFvvQHwBaTSeeb5?t=1723830652615" }
     ]).current;
-    const bg=useRef([t1,t2,t3,t4,t3,t2]).current
+    const bg=useRef([t1,t2,t3,t4,t5,t6,t7]).current
     const [currentbg,setCurrentBg]=useState(0)
     const interval=useRef<any>()
 
@@ -29,7 +32,7 @@ const Section1=()=>{
             clearInterval(interval.current)
         }
         interval.current=setInterval(()=>{
-            setCurrentBg(currentbg==5?0:currentbg+1)
+            setCurrentBg(currentbg==6?0:currentbg+1)
         },100)
     },[currentbg])
 
