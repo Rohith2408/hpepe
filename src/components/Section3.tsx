@@ -6,7 +6,7 @@ import bg from '../images/Section3/bg.png'
 const Section3=()=>{
 
     const ca=useRef("CN6YBfSnmmSfr2yX6gTg6hyQDo5yx1D2QFMGRxMGpump").current
-    const email=useRef("support@hpepecto.com").current
+    const email=useRef("support@hpepecto.com").current //"hexpepecto@gmail.com"
     const hexText=useRef("");
 
     return(

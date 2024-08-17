@@ -6,9 +6,9 @@
     align-items: center;
     justify-content: center;
     background-color:#46A439;
-    /* background-image: url("../images/Section1/matrix.png");
-    background-size: contain;
-    background-repeat:repeat; */
+    background-image: url("../images/Section1/trippy2.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
   }
   
   .subwrapper{
