@@ -2,12 +2,18 @@ import styles from "./Section4.module.css";
 import { useEffect, useRef, useState } from "react";
 import copy_icon from '../images/Section3/copy.png'
 import bg from '../images/Section3/bg.png'
+import t1 from '../images/Section1/trippy2/1.png'
+import t2 from '../images/Section1/trippy2/2.png'
+import t3 from '../images/Section1/trippy2/3.png'
 
 const Section4=()=>{
 
     const ca=useRef("84848484848").current
     const [text,setText]=useState("")
     const [hex,setHex]=useState("")  
+    const bg=useRef([t1,t2,t3]).current
+    const [currentbg,setCurrentBg]=useState(0)
+    const interval=useRef<any>()
 
     const setTexts=(type:"hex"|"text",value:string)=>{
         if(type=="hex")
@@ -22,8 +28,19 @@ const Section4=()=>{
         }
     }
 
+    useEffect(()=>{
+        if(interval.current)
+        {
+            clearInterval(interval.current)
+        }
+        interval.current=setInterval(()=>{
+            setCurrentBg(currentbg==2?0:currentbg+1)
+        },100)
+    },[currentbg])
+
     return(
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
+            <img className={styles.bg} src={bg[currentbg]}/>
             <div className={styles.subwrapper}>
                 {/* <img src={bg} className={styles.bg1}></img>
                 <img src={bg} className={styles.bg2} style={{transform:"scaleX(-1)"}}></img> */}

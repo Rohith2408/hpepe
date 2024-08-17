@@ -22,6 +22,16 @@
     background-repeat:no-repeat; */
   }
 
+  .bg{
+    position: absolute;
+    width: 100vw;
+    height:100%;
+    top: 0;
+    left: 0;
+    object-fit:cover;
+    z-index: -1;
+  }
+
   .textWrapper{
     display: flex;
     justify-content: center;
@@ -86,7 +96,7 @@
         max-height: 650px;
         min-height: 600px;
         min-width: 320px;
-        background-image: url("../images/Section1/trippy1.png");
+        /* background-image: url("../images/Section1/trippy1.png"); */
     }
 
     .subwrapper{
@@ -139,7 +149,7 @@
     .mainwrapper{
         max-height: 800px;
         min-height: 750px;
-        background-image: url("../images/Section1/trippy1.png");
+        /* background-image: url("../images/Section1/trippy1.png"); */
     }
 
     .subwrapper{
@@ -191,7 +201,7 @@
     .mainwrapper{
         max-height: 800px;
         min-height: 750px;
-        background-image: url("../images/Section1/trippy1.png");
+        /* background-image: url("../images/Section1/trippy1.png"); */
     }
 
     .subwrapper{
@@ -246,7 +256,7 @@
     .mainwrapper{
         max-height: 850px;
         min-height: 800px;
-        background-image: url("../images/Section1/trippy1.png");
+        /* background-image: url("../images/Section1/trippy1.png"); */
     }
 
     .subwrapper{
