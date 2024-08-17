@@ -44,7 +44,7 @@ const Section1=()=>{
                 <img className={styles.banner} src={banner}/>
                 <div className={styles.textWrapper}>
                     <div className={styles.textSubWrapper}>
-                        <p className={styles.title}>4850657065</p>
+                        <p className={styles.title}>$hpepe</p>
                         <p className={styles.text}>It's just Pepe but in Hex</p>
                         <div className={styles.socialWrapper}>
                         {
