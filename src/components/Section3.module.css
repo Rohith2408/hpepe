@@ -262,7 +262,7 @@
     }
 
     .subwrapper{
-        max-width: 1440px;
+        /* max-width: 1440px; */
         padding: 50px;
         flex-direction: row;
     }
